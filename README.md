@@ -69,6 +69,9 @@ This repo contains the following folders and files
 - App - this folder contains file to create the app to visualise model outputs
     - templates - this folder contains template files to aid creation of the app
     - run.py - this file creates the app
+   
+### Acknowledgments
+This app was completed as part of the Udacity Data Scientist Nanodegree. Code templates and data were provided by Udacity. The data was originally sourced by Udacity from Figure Eight.
 
 
 
