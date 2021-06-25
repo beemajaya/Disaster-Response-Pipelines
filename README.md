@@ -16,7 +16,7 @@ In order to run the following code you will need to:
         `python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl`
 - Navigate to app directory:
     - Run the following code in the terminal. This will create an app which classifies of messages and visualises results
-    `python run.py`
+    `python app/run.py`
 - In a web browser, go to http://0.0.0.0:3001/ to view the app output
 
 ### Prerequisites:
