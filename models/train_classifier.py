@@ -48,7 +48,7 @@ def f1_pre_acc_evaluation (y_true, y_pred):
        # print (eval_df)
 
         #dropping unnecessary columns
-        eval_df.drop(['micro avg', 'macro avg', 'weighted avg'], axis =1, inplace = True)
+        eval_df.drop(['macro avg', 'weighted avg'], axis =1, inplace = True)
 
         #dropping unnecessary row "support"
         eval_df.drop(index = 'support', inplace = True)
@@ -87,7 +87,7 @@ def f1_scorer_eval (y_true, y_pred):
         eval_df = pd.DataFrame (pd.DataFrame.from_dict (class_dict))
 
         #dropping unnecessary columns
-        eval_df.drop(['micro avg', 'macro avg', 'weighted avg'], axis =1, inplace = True)
+        eval_df.drop(['macro avg', 'weighted avg'], axis =1, inplace = True)
 
         #dropping unnecessary row "support"
         eval_df.drop(index = 'support', inplace = True)
